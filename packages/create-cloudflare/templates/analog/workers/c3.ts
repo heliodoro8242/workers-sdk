@@ -35,13 +35,16 @@ const configure = async (ctx: C3Context) => {
 		doneText: `${brandColor("installed")} ${dim(`via \`${npm} install\``)}`,
 	});
 
+	console.log("[DEBUG] Installing dependencies...");
 	// ...?
 	await runCommand([npm, "install"], {
-		silent: true,
+		// silent: true,
 		cwd: ctx.project.path,
 		startText: "Installing dependencies",
 		doneText: `${brandColor("installed")} ${dim(`via \`${npm} install\``)}`,
 	});
+
+	console.log("[DEBUG] Dependencies installed...");
 
 	updateViteConfig();
 	updateEnvTypes(ctx);
