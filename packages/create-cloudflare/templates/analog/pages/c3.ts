@@ -112,8 +112,8 @@ const config: TemplateConfig = {
 	configure,
 	transformPackageJson: async () => ({
 		scripts: {
-			preview: `${npm} run build && wrangler pages dev`,
-			deploy: `${npm} run build && wrangler pages deploy`,
+			preview: `DEBUG=vite:* ng build && wrangler pages dev`,
+			deploy: `DEBUG=vite:* ng build && wrangler pages deploy`,
 			"cf-typegen": `wrangler types`,
 		},
 	}),
