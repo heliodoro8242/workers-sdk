@@ -1,5 +1,14 @@
 # wrangler
 
+## 3.114.8
+
+### Patch Changes
+
+- [#9037](https://github.com/cloudflare/workers-sdk/pull/9037) [`d0d0025`](https://github.com/cloudflare/workers-sdk/commit/d0d0025dd538a7bbc9af2b68f46c55902440d7a2) Thanks [@CarmenPopoviciu](https://github.com/CarmenPopoviciu)! - fix: When generating Env types, set type of version metadata binding to `WorkerVersionMetadata`. This means it now correctly includes the `timestamp` field.
+
+- Updated dependencies [[`fc04292`](https://github.com/cloudflare/workers-sdk/commit/fc042928b06aba7abe466ee2efb83e56f10ebba0)]:
+  - miniflare@3.20250408.1
+
 ## 3.114.7
 
 ### Patch Changes
