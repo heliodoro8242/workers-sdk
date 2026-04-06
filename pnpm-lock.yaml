@@ -28,11 +28,11 @@ catalogs:
       specifier: ^5.7.2
       version: 5.7.3
     undici:
-      specifier: ^5.28.5
-      version: 5.28.5
+      specifier: ^6.24.0
+      version: 6.24.1
     vite:
-      specifier: ^5.4.14
-      version: 5.4.14
+      specifier: ^6.4.2
+      version: 6.4.2
     vitest:
       specifier: ~3.1.1
       version: 3.1.1
@@ -133,7 +133,7 @@ importers:
         version: 5.7.3
       vite:
         specifier: catalog:default
-        version: 5.4.14(@types/node@18.19.76)(lightningcss@1.29.2)
+        version: 6.4.2(@types/node@18.19.76)(jiti@2.4.2)(lightningcss@1.29.2)(tsx@3.12.10)
       vitest:
         specifier: catalog:default
         version: 3.1.1(@types/node@18.19.76)(@vitest/ui@3.1.1)(jiti@2.4.2)(lightningcss@1.29.2)(msw@2.4.3(typescript@5.7.3))(supports-color@9.2.2)
@@ -151,7 +151,7 @@ importers:
         version: 5.7.3
       undici:
         specifier: catalog:default
-        version: 5.28.5
+        version: 6.24.1
       vitest:
         specifier: catalog:default
         version: 3.1.1(@types/node@18.19.76)(@vitest/ui@3.1.1)(jiti@2.4.2)(lightningcss@1.29.2)(msw@2.4.3(typescript@5.7.3))(supports-color@9.2.2)
@@ -169,7 +169,7 @@ importers:
         version: 5.7.3
       undici:
         specifier: catalog:default
-        version: 5.28.5
+        version: 6.24.1
       vitest:
         specifier: catalog:default
         version: 3.1.1(@types/node@18.19.76)(@vitest/ui@3.1.1)(jiti@2.4.2)(lightningcss@1.29.2)(msw@2.4.3(typescript@5.7.3))(supports-color@9.2.2)
@@ -196,7 +196,7 @@ importers:
         version: 5.7.3
       undici:
         specifier: catalog:default
-        version: 5.28.5
+        version: 6.24.1
       vitest:
         specifier: catalog:default
         version: 3.1.1(@types/node@18.19.76)(@vitest/ui@3.1.1)(jiti@2.4.2)(lightningcss@1.29.2)(msw@2.4.3(typescript@5.7.3))(supports-color@9.2.2)
@@ -217,7 +217,7 @@ importers:
         version: 5.7.3
       undici:
         specifier: catalog:default
-        version: 5.28.5
+        version: 6.24.1
       vitest:
         specifier: catalog:default
         version: 3.1.1(@types/node@18.19.76)(@vitest/ui@3.1.1)(jiti@2.4.2)(lightningcss@1.29.2)(msw@2.4.3(typescript@5.7.3))(supports-color@9.2.2)
@@ -238,7 +238,7 @@ importers:
         version: 5.7.3
       undici:
         specifier: catalog:default
-        version: 5.28.5
+        version: 6.24.1
       vitest:
         specifier: catalog:default
         version: 3.1.1(@types/node@18.19.76)(@vitest/ui@3.1.1)(jiti@2.4.2)(lightningcss@1.29.2)(msw@2.4.3(typescript@5.7.3))(supports-color@9.2.2)
@@ -253,7 +253,7 @@ importers:
         version: link:../../packages/workers-tsconfig
       undici:
         specifier: catalog:default
-        version: 5.28.5
+        version: 6.24.1
       vitest:
         specifier: catalog:default
         version: 3.1.1(@types/node@18.19.76)(@vitest/ui@3.1.1)(jiti@2.4.2)(lightningcss@1.29.2)(msw@2.4.3(typescript@5.7.3))(supports-color@9.2.2)
@@ -286,7 +286,7 @@ importers:
         version: 2.2.0
       undici:
         specifier: catalog:default
-        version: 5.28.5
+        version: 6.24.1
       vitest:
         specifier: catalog:default
         version: 3.1.1(@types/node@18.19.76)(@vitest/ui@3.1.1)(jiti@2.4.2)(lightningcss@1.29.2)(msw@2.4.3(typescript@5.7.3))(supports-color@9.2.2)
@@ -307,7 +307,7 @@ importers:
         version: 5.7.3
       undici:
         specifier: catalog:default
-        version: 5.28.5
+        version: 6.24.1
       vitest:
         specifier: catalog:default
         version: 3.1.1(@types/node@18.19.76)(@vitest/ui@3.1.1)(jiti@2.4.2)(lightningcss@1.29.2)(msw@2.4.3(typescript@5.7.3))(supports-color@9.2.2)
@@ -331,7 +331,7 @@ importers:
         version: 5.7.3
       undici:
         specifier: catalog:default
-        version: 5.28.5
+        version: 6.24.1
       vitest:
         specifier: catalog:default
         version: 3.1.1(@types/node@18.19.76)(@vitest/ui@3.1.1)(jiti@2.4.2)(lightningcss@1.29.2)(msw@2.4.3(typescript@5.7.3))(supports-color@9.2.2)
@@ -355,7 +355,7 @@ importers:
         version: 7.1.0
       undici:
         specifier: catalog:default
-        version: 5.28.5
+        version: 6.24.1
       vitest:
         specifier: catalog:default
         version: 3.1.1(@types/node@18.19.76)(@vitest/ui@3.1.1)(jiti@2.4.2)(lightningcss@1.29.2)(msw@2.4.3(typescript@5.7.3))(supports-color@9.2.2)
@@ -438,7 +438,7 @@ importers:
         version: 5.7.3
       undici:
         specifier: catalog:default
-        version: 5.28.5
+        version: 6.24.1
       vitest:
         specifier: catalog:default
         version: 3.1.1(@types/node@18.19.76)(@vitest/ui@3.1.1)(jiti@2.4.2)(lightningcss@1.29.2)(msw@2.4.3(typescript@5.7.3))(supports-color@9.2.2)
@@ -456,7 +456,7 @@ importers:
         version: 4.20250424.0
       undici:
         specifier: catalog:default
-        version: 5.28.5
+        version: 6.24.1
       vitest:
         specifier: catalog:default
         version: 3.1.1(@types/node@18.19.76)(@vitest/ui@3.1.1)(jiti@2.4.2)(lightningcss@1.29.2)(msw@2.4.3(typescript@5.7.3))(supports-color@9.2.2)
@@ -483,7 +483,7 @@ importers:
         version: 1.1.1
       undici:
         specifier: catalog:default
-        version: 5.28.5
+        version: 6.24.1
       vitest:
         specifier: catalog:default
         version: 3.1.1(@types/node@18.19.76)(@vitest/ui@3.1.1)(jiti@2.4.2)(lightningcss@1.29.2)(msw@2.4.3(typescript@5.7.3))(supports-color@9.2.2)
@@ -501,7 +501,7 @@ importers:
         version: 5.7.3
       undici:
         specifier: catalog:default
-        version: 5.28.5
+        version: 6.24.1
       vitest:
         specifier: catalog:default
         version: 3.1.1(@types/node@18.19.76)(@vitest/ui@3.1.1)(jiti@2.4.2)(lightningcss@1.29.2)(msw@2.4.3(typescript@5.7.3))(supports-color@9.2.2)
@@ -522,7 +522,7 @@ importers:
         version: 5.7.3
       undici:
         specifier: catalog:default
-        version: 5.28.5
+        version: 6.24.1
       vitest:
         specifier: catalog:default
         version: 3.1.1(@types/node@18.19.76)(@vitest/ui@3.1.1)(jiti@2.4.2)(lightningcss@1.29.2)(msw@2.4.3(typescript@5.7.3))(supports-color@9.2.2)
@@ -550,7 +550,7 @@ importers:
         version: 5.7.3
       undici:
         specifier: catalog:default
-        version: 5.28.5
+        version: 6.24.1
       vitest:
         specifier: catalog:default
         version: 3.1.1(@types/node@18.19.76)(@vitest/ui@3.1.1)(jiti@2.4.2)(lightningcss@1.29.2)(msw@2.4.3(typescript@5.7.3))(supports-color@9.2.2)
@@ -568,7 +568,7 @@ importers:
         version: 5.7.3
       undici:
         specifier: catalog:default
-        version: 5.28.5
+        version: 6.24.1
       vitest:
         specifier: catalog:default
         version: 3.1.1(@types/node@18.19.76)(@vitest/ui@3.1.1)(jiti@2.4.2)(lightningcss@1.29.2)(msw@2.4.3(typescript@5.7.3))(supports-color@9.2.2)
@@ -586,7 +586,7 @@ importers:
         version: 5.7.3
       undici:
         specifier: catalog:default
-        version: 5.28.5
+        version: 6.24.1
       vitest:
         specifier: catalog:default
         version: 3.1.1(@types/node@18.19.76)(@vitest/ui@3.1.1)(jiti@2.4.2)(lightningcss@1.29.2)(msw@2.4.3(typescript@5.7.3))(supports-color@9.2.2)
@@ -604,7 +604,7 @@ importers:
         version: 5.7.3
       undici:
         specifier: catalog:default
-        version: 5.28.5
+        version: 6.24.1
       vitest:
         specifier: catalog:default
         version: 3.1.1(@types/node@18.19.76)(@vitest/ui@3.1.1)(jiti@2.4.2)(lightningcss@1.29.2)(msw@2.4.3(typescript@5.7.3))(supports-color@9.2.2)
@@ -625,7 +625,7 @@ importers:
         version: 5.7.3
       undici:
         specifier: catalog:default
-        version: 5.28.5
+        version: 6.24.1
       vitest:
         specifier: catalog:default
         version: 3.1.1(@types/node@18.19.76)(@vitest/ui@3.1.1)(jiti@2.4.2)(lightningcss@1.29.2)(msw@2.4.3(typescript@5.7.3))(supports-color@9.2.2)
@@ -643,7 +643,7 @@ importers:
         version: 5.7.3
       undici:
         specifier: catalog:default
-        version: 5.28.5
+        version: 6.24.1
       vitest:
         specifier: catalog:default
         version: 3.1.1(@types/node@18.19.76)(@vitest/ui@3.1.1)(jiti@2.4.2)(lightningcss@1.29.2)(msw@2.4.3(typescript@5.7.3))(supports-color@9.2.2)
@@ -680,7 +680,7 @@ importers:
         version: 5.7.3
       undici:
         specifier: catalog:default
-        version: 5.28.5
+        version: 6.24.1
       vitest:
         specifier: catalog:default
         version: 3.1.1(@types/node@18.19.76)(@vitest/ui@3.1.1)(jiti@2.4.2)(lightningcss@1.29.2)(msw@2.4.3(typescript@5.7.3))(supports-color@9.2.2)
@@ -701,7 +701,7 @@ importers:
         version: 5.7.3
       undici:
         specifier: catalog:default
-        version: 5.28.5
+        version: 6.24.1
       vitest:
         specifier: catalog:default
         version: 3.1.1(@types/node@18.19.76)(@vitest/ui@3.1.1)(jiti@2.4.2)(lightningcss@1.29.2)(msw@2.4.3(typescript@5.7.3))(supports-color@9.2.2)
@@ -716,7 +716,7 @@ importers:
         version: link:../../packages/workers-tsconfig
       undici:
         specifier: catalog:default
-        version: 5.28.5
+        version: 6.24.1
       vitest:
         specifier: catalog:default
         version: 3.1.1(@types/node@18.19.76)(@vitest/ui@3.1.1)(jiti@2.4.2)(lightningcss@1.29.2)(msw@2.4.3(typescript@5.7.3))(supports-color@9.2.2)
@@ -737,7 +737,7 @@ importers:
         version: 5.7.3
       undici:
         specifier: catalog:default
-        version: 5.28.5
+        version: 6.24.1
       vitest:
         specifier: catalog:default
         version: 3.1.1(@types/node@18.19.76)(@vitest/ui@3.1.1)(jiti@2.4.2)(lightningcss@1.29.2)(msw@2.4.3(typescript@5.7.3))(supports-color@9.2.2)
@@ -755,7 +755,7 @@ importers:
         version: 5.7.3
       undici:
         specifier: catalog:default
-        version: 5.28.5
+        version: 6.24.1
       vitest:
         specifier: catalog:default
         version: 3.1.1(@types/node@18.19.76)(@vitest/ui@3.1.1)(jiti@2.4.2)(lightningcss@1.29.2)(msw@2.4.3(typescript@5.7.3))(supports-color@9.2.2)
@@ -773,7 +773,7 @@ importers:
         version: 5.7.3
       undici:
         specifier: catalog:default
-        version: 5.28.5
+        version: 6.24.1
       vitest:
         specifier: catalog:default
         version: 3.1.1(@types/node@18.19.76)(@vitest/ui@3.1.1)(jiti@2.4.2)(lightningcss@1.29.2)(msw@2.4.3(typescript@5.7.3))(supports-color@9.2.2)
@@ -791,7 +791,7 @@ importers:
         version: 5.7.3
       undici:
         specifier: catalog:default
-        version: 5.28.5
+        version: 6.24.1
       vitest:
         specifier: catalog:default
         version: 3.1.1(@types/node@18.19.76)(@vitest/ui@3.1.1)(jiti@2.4.2)(lightningcss@1.29.2)(msw@2.4.3(typescript@5.7.3))(supports-color@9.2.2)
@@ -809,7 +809,7 @@ importers:
         version: 5.7.3
       undici:
         specifier: catalog:default
-        version: 5.28.5
+        version: 6.24.1
       vitest:
         specifier: catalog:default
         version: 3.1.1(@types/node@18.19.76)(@vitest/ui@3.1.1)(jiti@2.4.2)(lightningcss@1.29.2)(msw@2.4.3(typescript@5.7.3))(supports-color@9.2.2)
@@ -827,7 +827,7 @@ importers:
         version: 5.7.3
       undici:
         specifier: catalog:default
-        version: 5.28.5
+        version: 6.24.1
       vitest:
         specifier: catalog:default
         version: 3.1.1(@types/node@18.19.76)(@vitest/ui@3.1.1)(jiti@2.4.2)(lightningcss@1.29.2)(msw@2.4.3(typescript@5.7.3))(supports-color@9.2.2)
@@ -845,7 +845,7 @@ importers:
         version: 5.7.3
       undici:
         specifier: catalog:default
-        version: 5.28.5
+        version: 6.24.1
       vitest:
         specifier: catalog:default
         version: 3.1.1(@types/node@18.19.76)(@vitest/ui@3.1.1)(jiti@2.4.2)(lightningcss@1.29.2)(msw@2.4.3(typescript@5.7.3))(supports-color@9.2.2)
@@ -884,7 +884,7 @@ importers:
         version: 5.7.3
       undici:
         specifier: catalog:default
-        version: 5.28.5
+        version: 6.24.1
       vitest:
         specifier: catalog:default
         version: 3.1.1(@types/node@18.19.76)(@vitest/ui@3.1.1)(jiti@2.4.2)(lightningcss@1.29.2)(msw@2.4.3(typescript@5.7.3))(supports-color@9.2.2)
@@ -899,7 +899,7 @@ importers:
         version: link:../../packages/workers-tsconfig
       undici:
         specifier: catalog:default
-        version: 5.28.5
+        version: 6.24.1
       vitest:
         specifier: catalog:default
         version: 3.1.1(@types/node@18.19.76)(@vitest/ui@3.1.1)(jiti@2.4.2)(lightningcss@1.29.2)(msw@2.4.3(typescript@5.7.3))(supports-color@9.2.2)
@@ -914,7 +914,7 @@ importers:
         version: link:../../packages/workers-tsconfig
       undici:
         specifier: catalog:default
-        version: 5.28.5
+        version: 6.24.1
       vitest:
         specifier: catalog:default
         version: 3.1.1(@types/node@18.19.76)(@vitest/ui@3.1.1)(jiti@2.4.2)(lightningcss@1.29.2)(msw@2.4.3(typescript@5.7.3))(supports-color@9.2.2)
@@ -1011,7 +1011,7 @@ importers:
         version: 5.7.3
       vite:
         specifier: catalog:default
-        version: 5.4.14(@types/node@18.19.76)(lightningcss@1.29.2)
+        version: 6.4.2(@types/node@18.19.76)(jiti@2.4.2)(lightningcss@1.29.2)(tsx@3.12.10)
       vitest:
         specifier: catalog:default
         version: 3.1.1(@types/node@18.19.76)(@vitest/ui@3.1.1)(jiti@2.4.2)(lightningcss@1.29.2)(msw@2.4.3(typescript@5.7.3))(supports-color@9.2.2)
@@ -1053,7 +1053,7 @@ importers:
         version: 5.7.3
       undici:
         specifier: catalog:default
-        version: 5.28.5
+        version: 6.24.1
       vitest:
         specifier: catalog:default
         version: 3.1.1(@types/node@18.19.76)(@vitest/ui@3.1.1)(jiti@2.4.2)(lightningcss@1.29.2)(msw@2.4.3(typescript@5.7.3))(supports-color@9.2.2)
@@ -1083,7 +1083,7 @@ importers:
         version: 5.7.3
       undici:
         specifier: catalog:default
-        version: 5.28.5
+        version: 6.24.1
       vitest:
         specifier: catalog:default
         version: 3.1.1(@types/node@18.19.76)(@vitest/ui@3.1.1)(jiti@2.4.2)(lightningcss@1.29.2)(msw@2.4.3(typescript@5.7.3))(supports-color@9.2.2)
@@ -1104,7 +1104,7 @@ importers:
         version: 5.7.3
       undici:
         specifier: catalog:default
-        version: 5.28.5
+        version: 6.24.1
       vitest:
         specifier: catalog:default
         version: 3.1.1(@types/node@18.19.76)(@vitest/ui@3.1.1)(jiti@2.4.2)(lightningcss@1.29.2)(msw@2.4.3(typescript@5.7.3))(supports-color@9.2.2)
@@ -1125,7 +1125,7 @@ importers:
         version: 5.7.3
       undici:
         specifier: catalog:default
-        version: 5.28.5
+        version: 6.24.1
       vitest:
         specifier: catalog:default
         version: 3.1.1(@types/node@18.19.76)(@vitest/ui@3.1.1)(jiti@2.4.2)(lightningcss@1.29.2)(msw@2.4.3(typescript@5.7.3))(supports-color@9.2.2)
@@ -1146,7 +1146,7 @@ importers:
         version: 5.7.3
       undici:
         specifier: catalog:default
-        version: 5.28.5
+        version: 6.24.1
       vitest:
         specifier: catalog:default
         version: 3.1.1(@types/node@18.19.76)(@vitest/ui@3.1.1)(jiti@2.4.2)(lightningcss@1.29.2)(msw@2.4.3(typescript@5.7.3))(supports-color@9.2.2)
@@ -1179,7 +1179,7 @@ importers:
         version: 5.7.3
       undici:
         specifier: catalog:default
-        version: 5.28.5
+        version: 6.24.1
       vitest:
         specifier: catalog:default
         version: 3.1.1(@types/node@18.19.76)(@vitest/ui@3.1.1)(jiti@2.4.2)(lightningcss@1.29.2)(msw@2.4.3(typescript@5.7.3))(supports-color@9.2.2)
@@ -1200,7 +1200,7 @@ importers:
         version: 5.7.3
       undici:
         specifier: catalog:default
-        version: 5.28.5
+        version: 6.24.1
       vitest:
         specifier: catalog:default
         version: 3.1.1(@types/node@18.19.76)(@vitest/ui@3.1.1)(jiti@2.4.2)(lightningcss@1.29.2)(msw@2.4.3(typescript@5.7.3))(supports-color@9.2.2)
@@ -1218,7 +1218,7 @@ importers:
         version: 5.7.3
       undici:
         specifier: catalog:default
-        version: 5.28.5
+        version: 6.24.1
       vitest:
         specifier: catalog:default
         version: 3.1.1(@types/node@18.19.76)(@vitest/ui@3.1.1)(jiti@2.4.2)(lightningcss@1.29.2)(msw@2.4.3(typescript@5.7.3))(supports-color@9.2.2)
@@ -1263,7 +1263,7 @@ importers:
         version: 5.0.1
       undici:
         specifier: catalog:default
-        version: 5.28.5
+        version: 6.24.1
 
   packages/cloudflare-workers-bindings-extension:
     devDependencies:
@@ -1437,13 +1437,13 @@ importers:
         version: 5.7.3
       undici:
         specifier: catalog:default
-        version: 5.28.5
+        version: 6.24.1
       vite:
         specifier: catalog:default
-        version: 5.4.14(@types/node@18.19.76)(lightningcss@1.29.2)
+        version: 6.4.2(@types/node@18.19.76)(jiti@2.4.2)(lightningcss@1.29.2)(tsx@3.12.10)
       vite-tsconfig-paths:
         specifier: ^4.0.8
-        version: 4.2.0(typescript@5.7.3)(vite@5.4.14(@types/node@18.19.76)(lightningcss@1.29.2))
+        version: 4.2.0(typescript@5.7.3)(vite@6.4.2(@types/node@18.19.76)(jiti@2.4.2)(lightningcss@1.29.2))
       vitest:
         specifier: catalog:default
         version: 3.1.1(@types/node@18.19.76)(@vitest/ui@3.1.1)(jiti@2.4.2)(lightningcss@1.29.2)(msw@2.4.3(typescript@5.7.3))(supports-color@9.2.2)
@@ -1607,7 +1607,7 @@ importers:
         version: 1.1.0
       undici:
         specifier: catalog:default
-        version: 5.28.5
+        version: 6.24.1
       workerd:
         specifier: 1.20250424.0
         version: 1.20250424.0
@@ -1682,8 +1682,8 @@ importers:
         specifier: ^8.2.2
         version: 8.2.2
       devalue:
-        specifier: ^4.3.0
-        version: 4.3.2
+        specifier: ^5.6.4
+        version: 5.6.4
       devtools-protocol:
         specifier: ^0.0.1182435
         version: 0.0.1182435
@@ -1797,8 +1797,8 @@ importers:
   packages/playground-preview-worker:
     dependencies:
       hono:
-        specifier: ^4.7.0
-        version: 4.7.1
+        specifier: ^4.12.7
+        version: 4.12.7
       zod:
         specifier: ^3.22.3
         version: 3.22.3
@@ -1826,7 +1826,7 @@ importers:
         version: 3.3.1(patch_hash=b5gffumfuckaq3c77sda2gdfuq)
       undici:
         specifier: catalog:default
-        version: 5.28.5
+        version: 6.24.1
       wrangler:
         specifier: workspace:*
         version: link:../wrangler
@@ -1890,10 +1890,10 @@ importers:
     dependencies:
       '@hono/zod-validator':
         specifier: ^0.4.2
-        version: 0.4.2(hono@4.7.1)(zod@3.22.3)
+        version: 0.4.2(hono@4.12.7)(zod@3.22.3)
       hono:
-        specifier: ^4.7.0
-        version: 4.7.1
+        specifier: ^4.12.7
+        version: 4.12.7
       zod:
         specifier: ^3.22.3
         version: 3.22.3
@@ -1925,7 +1925,7 @@ importers:
         version: 3.3.1(typescript@5.7.3)(vue-tsc@2.0.29(typescript@5.7.3))
       undici:
         specifier: catalog:default
-        version: 5.28.5
+        version: 6.24.1
       vitest:
         specifier: catalog:default
         version: 3.1.1(@types/node@18.19.76)(@vitest/ui@3.1.1)(jiti@2.4.2)(lightningcss@1.29.2)(msw@2.4.3(typescript@5.7.3))(supports-color@9.2.2)
@@ -1943,7 +1943,7 @@ importers:
         version: 0.0.49
       '@rollup/plugin-replace':
         specifier: ^6.0.1
-        version: 6.0.2(rollup@4.30.1)
+        version: 6.0.2(rollup@4.60.1)
       get-port:
         specifier: ^7.1.0
         version: 7.1.0
@@ -1992,13 +1992,13 @@ importers:
         version: 1.7.4
       tsup:
         specifier: 8.3.0
-        version: 8.3.0(@microsoft/api-extractor@7.49.1(@types/node@18.19.76))(jiti@2.4.2)(postcss@8.5.1)(typescript@5.7.3)
+        version: 8.3.0(@microsoft/api-extractor@7.49.1(@types/node@18.19.76))(jiti@2.4.2)(postcss@8.5.8)(typescript@5.7.3)
       typescript:
         specifier: catalog:default
         version: 5.7.3
       undici:
         specifier: catalog:default
-        version: 5.28.5
+        version: 6.24.1
       vite:
         specifier: catalog:vite-plugin
         version: 6.1.0(@types/node@18.19.76)(jiti@2.4.2)(lightningcss@1.29.2)
@@ -2797,8 +2797,8 @@ importers:
         specifier: ^1.2.3
         version: 1.2.3
       devalue:
-        specifier: ^4.3.0
-        version: 4.3.2
+        specifier: ^5.6.4
+        version: 5.6.4
       miniflare:
         specifier: workspace:*
         version: link:../miniflare
@@ -2847,7 +2847,7 @@ importers:
         version: 5.7.3
       undici:
         specifier: catalog:default
-        version: 5.28.5
+        version: 6.24.1
       vitest:
         specifier: catalog:default
         version: 3.1.1(@types/node@18.19.76)(@vitest/ui@3.1.1)(jiti@2.4.2)(lightningcss@1.29.2)(msw@2.4.3(typescript@5.7.3))(supports-color@9.2.2)
@@ -2881,7 +2881,7 @@ importers:
         version: 6.10.0(eslint@8.57.1)(typescript@5.7.3)
       '@vitejs/plugin-react':
         specifier: ^4.3.3
-        version: 4.3.3(vite@5.4.14(@types/node@18.19.76)(lightningcss@1.29.2))
+        version: 4.3.3(vite@6.4.2(@types/node@18.19.76)(jiti@2.4.2)(lightningcss@1.29.2)(tsx@3.12.10))
       eslint:
         specifier: ^8.57.1
         version: 8.57.1
@@ -2893,10 +2893,10 @@ importers:
         version: 18.3.1(react@18.3.1)
       vite:
         specifier: catalog:default
-        version: 5.4.14(@types/node@18.19.76)(lightningcss@1.29.2)
+        version: 6.4.2(@types/node@18.19.76)(jiti@2.4.2)(lightningcss@1.29.2)(tsx@3.12.10)
       vite-plugin-dts:
         specifier: ^4.0.1
-        version: 4.0.1(@types/node@18.19.76)(rollup@4.30.1)(typescript@5.7.3)(vite@5.4.14(@types/node@18.19.76)(lightningcss@1.29.2))
+        version: 4.0.1(@types/node@18.19.76)(rollup@4.60.1)(typescript@5.7.3)(vite@6.4.2(@types/node@18.19.76)(jiti@2.4.2)(lightningcss@1.29.2))
 
   packages/workers-playground:
     dependencies:
@@ -3002,7 +3002,7 @@ importers:
         version: 6.10.0(eslint@8.57.1)(typescript@5.7.3)
       '@vitejs/plugin-react':
         specifier: ^4.3.3
-        version: 4.3.3(vite@5.4.14(@types/node@18.19.76)(lightningcss@1.29.2))
+        version: 4.3.3(vite@6.4.2(@types/node@18.19.76)(jiti@2.4.2)(lightningcss@1.29.2)(tsx@3.12.10))
       eslint:
         specifier: ^8.57.1
         version: 8.57.1
@@ -3011,10 +3011,10 @@ importers:
         version: 3.12.10
       undici:
         specifier: catalog:default
-        version: 5.28.5
+        version: 6.24.1
       vite:
         specifier: catalog:default
-        version: 5.4.14(@types/node@18.19.76)(lightningcss@1.29.2)
+        version: 6.4.2(@types/node@18.19.76)(jiti@2.4.2)(lightningcss@1.29.2)(tsx@3.12.10)
       wrangler:
         specifier: workspace:^
         version: link:../wrangler
@@ -3155,8 +3155,8 @@ importers:
         specifier: workspace:*
         version: link:../miniflare
       path-to-regexp:
-        specifier: 6.3.0
-        version: 6.3.0
+        specifier: 7.0.0
+        version: 7.0.0
       unenv:
         specifier: 2.0.0-rc.15
         version: 2.0.0-rc.15
@@ -3322,8 +3322,8 @@ importers:
         specifier: ^3.0.0
         version: 3.0.0
       minimatch:
-        specifier: ^5.1.0
-        version: 5.1.6
+        specifier: ^5.1.8
+        version: 5.1.9
       mock-socket:
         specifier: ^9.3.1
         version: 9.3.1
@@ -3331,8 +3331,8 @@ importers:
         specifier: 2.4.3
         version: 2.4.3(typescript@5.7.3)
       node-forge:
-        specifier: ^1.3.1
-        version: 1.3.1
+        specifier: ^1.4.0
+        version: 1.4.0
       open:
         specifier: ^8.4.0
         version: 8.4.0
@@ -3389,7 +3389,7 @@ importers:
         version: 5.7.3
       undici:
         specifier: catalog:default
-        version: 5.28.5
+        version: 6.24.1
       update-check:
         specifier: ^1.5.4
         version: 1.5.4
@@ -3434,7 +3434,7 @@ importers:
         version: 2.2.0
       undici:
         specifier: catalog:default
-        version: 5.28.5
+        version: 6.24.1
 
 packages:
 
@@ -5544,6 +5544,9 @@ packages:
   '@polka/url@1.0.0-next.28':
     resolution: {integrity: sha512-8LduaNlMZGwdZ6qWrKlfa+2M4gahzFkprZiAt2TF8uS0qQgBizKXpXURqvTJ4WtmupWxaLqjRb2UCTe72mu+Aw==}
 
+  '@polka/url@1.0.0-next.29':
+    resolution: {integrity: sha512-wwQAWhWSuHaag8c4q/KN/vCoeOJYshAIvMQwD4GpSb3OiZklFfvAgmj0VCBBImRpuF/aFgIRzllXlVX93Jevww==}
+
   '@prisma/adapter-d1@6.3.1':
     resolution: {integrity: sha512-5UzXJZ2OYrhCnn66z01CsPYTRjnanm9M7/OAwtwWByXZua3o+YfiWUuxoshbcTi/jom3ga8NzhIOaBFZ3U3Ogw==}
 
@@ -5818,8 +5821,18 @@ packages:
     cpu: [arm]
     os: [android]
 
+  '@rollup/rollup-android-arm-eabi@4.60.1':
+    resolution: {integrity: sha512-d6FinEBLdIiK+1uACUttJKfgZREXrF0Qc2SmLII7W2AD8FfiZ9Wjd+rD/iRuf5s5dWrr1GgwXCvPqOuDquOowA==}
+    cpu: [arm]
+    os: [android]
+
   '@rollup/rollup-android-arm64@4.30.1':
     resolution: {integrity: sha512-/NA2qXxE3D/BRjOJM8wQblmArQq1YoBVJjrjoTSBS09jgUisq7bqxNHJ8kjCHeV21W/9WDGwJEWSN0KQ2mtD/w==}
+    cpu: [arm64]
+    os: [android]
+
+  '@rollup/rollup-android-arm64@4.60.1':
+    resolution: {integrity: sha512-YjG/EwIDvvYI1YvYbHvDz/BYHtkY4ygUIXHnTdLhG+hKIQFBiosfWiACWortsKPKU/+dUwQQCKQM3qrDe8c9BA==}
     cpu: [arm64]
     os: [android]
 
@@ -5828,8 +5841,18 @@ packages:
     cpu: [arm64]
     os: [darwin]
 
+  '@rollup/rollup-darwin-arm64@4.60.1':
+    resolution: {integrity: sha512-mjCpF7GmkRtSJwon+Rq1N8+pI+8l7w5g9Z3vWj4T7abguC4Czwi3Yu/pFaLvA3TTeMVjnu3ctigusqWUfjZzvw==}
+    cpu: [arm64]
+    os: [darwin]
+
   '@rollup/rollup-darwin-x64@4.30.1':
     resolution: {integrity: sha512-x78BavIwSH6sqfP2xeI1hd1GpHL8J4W2BXcVM/5KYKoAD3nNsfitQhvWSw+TFtQTLZ9OmlF+FEInEHyubut2OA==}
+    cpu: [x64]
+    os: [darwin]
+
+  '@rollup/rollup-darwin-x64@4.60.1':
+    resolution: {integrity: sha512-haZ7hJ1JT4e9hqkoT9R/19XW2QKqjfJVv+i5AGg57S+nLk9lQnJ1F/eZloRO3o9Scy9CM3wQ9l+dkXtcBgN5Ew==}
     cpu: [x64]
     os: [darwin]
 
@@ -5838,8 +5861,18 @@ packages:
     cpu: [arm64]
     os: [freebsd]
 
+  '@rollup/rollup-freebsd-arm64@4.60.1':
+    resolution: {integrity: sha512-czw90wpQq3ZsAVBlinZjAYTKduOjTywlG7fEeWKUA7oCmpA8xdTkxZZlwNJKWqILlq0wehoZcJYfBvOyhPTQ6w==}
+    cpu: [arm64]
+    os: [freebsd]
+
   '@rollup/rollup-freebsd-x64@4.30.1':
     resolution: {integrity: sha512-1MEdGqogQLccphhX5myCJqeGNYTNcmTyaic9S7CG3JhwuIByJ7J05vGbZxsizQthP1xpVx7kd3o31eOogfEirw==}
+    cpu: [x64]
+    os: [freebsd]
+
+  '@rollup/rollup-freebsd-x64@4.60.1':
+    resolution: {integrity: sha512-KVB2rqsxTHuBtfOeySEyzEOB7ltlB/ux38iu2rBQzkjbwRVlkhAGIEDiiYnO2kFOkJp+Z7pUXKyrRRFuFUKt+g==}
     cpu: [x64]
     os: [freebsd]
 
@@ -5848,8 +5881,18 @@ packages:
     cpu: [arm]
     os: [linux]
 
+  '@rollup/rollup-linux-arm-gnueabihf@4.60.1':
+    resolution: {integrity: sha512-L+34Qqil+v5uC0zEubW7uByo78WOCIrBvci69E7sFASRl0X7b/MB6Cqd1lky/CtcSVTydWa2WZwFuWexjS5o6g==}
+    cpu: [arm]
+    os: [linux]
+
   '@rollup/rollup-linux-arm-musleabihf@4.30.1':
     resolution: {integrity: sha512-B8Rcyj9AV7ZlEFqvB5BubG5iO6ANDsRKlhIxySXcF1axXYUyqwBok+XZPgIYGBgs7LDXfWfifxhw0Ik57T0Yug==}
+    cpu: [arm]
+    os: [linux]
+
+  '@rollup/rollup-linux-arm-musleabihf@4.60.1':
+    resolution: {integrity: sha512-n83O8rt4v34hgFzlkb1ycniJh7IR5RCIqt6mz1VRJD6pmhRi0CXdmfnLu9dIUS6buzh60IvACM842Ffb3xd6Gg==}
     cpu: [arm]
     os: [linux]
 
@@ -5858,9 +5901,29 @@ packages:
     cpu: [arm64]
     os: [linux]
 
+  '@rollup/rollup-linux-arm64-gnu@4.60.1':
+    resolution: {integrity: sha512-Nql7sTeAzhTAja3QXeAI48+/+GjBJ+QmAH13snn0AJSNL50JsDqotyudHyMbO2RbJkskbMbFJfIJKWA6R1LCJQ==}
+    cpu: [arm64]
+    os: [linux]
+
   '@rollup/rollup-linux-arm64-musl@4.30.1':
     resolution: {integrity: sha512-i4Ab2vnvS1AE1PyOIGp2kXni69gU2DAUVt6FSXeIqUCPIR3ZlheMW3oP2JkukDfu3PsexYRbOiJrY+yVNSk9oA==}
     cpu: [arm64]
+    os: [linux]
+
+  '@rollup/rollup-linux-arm64-musl@4.60.1':
+    resolution: {integrity: sha512-+pUymDhd0ys9GcKZPPWlFiZ67sTWV5UU6zOJat02M1+PiuSGDziyRuI/pPue3hoUwm2uGfxdL+trT6Z9rxnlMA==}
+    cpu: [arm64]
+    os: [linux]
+
+  '@rollup/rollup-linux-loong64-gnu@4.60.1':
+    resolution: {integrity: sha512-VSvgvQeIcsEvY4bKDHEDWcpW4Yw7BtlKG1GUT4FzBUlEKQK0rWHYBqQt6Fm2taXS+1bXvJT6kICu5ZwqKCnvlQ==}
+    cpu: [loong64]
+    os: [linux]
+
+  '@rollup/rollup-linux-loong64-musl@4.60.1':
+    resolution: {integrity: sha512-4LqhUomJqwe641gsPp6xLfhqWMbQV04KtPp7/dIp0nzPxAkNY1AbwL5W0MQpcalLYk07vaW9Kp1PBhdpZYYcEw==}
+    cpu: [loong64]
     os: [linux]
 
   '@rollup/rollup-linux-loongarch64-gnu@4.30.1':
@@ -5873,8 +5936,28 @@ packages:
     cpu: [ppc64]
     os: [linux]
 
+  '@rollup/rollup-linux-ppc64-gnu@4.60.1':
+    resolution: {integrity: sha512-tLQQ9aPvkBxOc/EUT6j3pyeMD6Hb8QF2BTBnCQWP/uu1lhc9AIrIjKnLYMEroIz/JvtGYgI9dF3AxHZNaEH0rw==}
+    cpu: [ppc64]
+    os: [linux]
+
+  '@rollup/rollup-linux-ppc64-musl@4.60.1':
+    resolution: {integrity: sha512-RMxFhJwc9fSXP6PqmAz4cbv3kAyvD1etJFjTx4ONqFP9DkTkXsAMU4v3Vyc5BgzC+anz7nS/9tp4obsKfqkDHg==}
+    cpu: [ppc64]
+    os: [linux]
+
   '@rollup/rollup-linux-riscv64-gnu@4.30.1':
     resolution: {integrity: sha512-0WKLaAUUHKBtll0wvOmh6yh3S0wSU9+yas923JIChfxOaaBarmb/lBKPF0w/+jTVozFnOXJeRGZ8NvOxvk/jcw==}
+    cpu: [riscv64]
+    os: [linux]
+
+  '@rollup/rollup-linux-riscv64-gnu@4.60.1':
+    resolution: {integrity: sha512-QKgFl+Yc1eEk6MmOBfRHYF6lTxiiiV3/z/BRrbSiW2I7AFTXoBFvdMEyglohPj//2mZS4hDOqeB0H1ACh3sBbg==}
+    cpu: [riscv64]
+    os: [linux]
+
+  '@rollup/rollup-linux-riscv64-musl@4.60.1':
+    resolution: {integrity: sha512-RAjXjP/8c6ZtzatZcA1RaQr6O1TRhzC+adn8YZDnChliZHviqIjmvFwHcxi4JKPSDAt6Uhf/7vqcBzQJy0PDJg==}
     cpu: [riscv64]
     os: [linux]
 
@@ -5883,8 +5966,18 @@ packages:
     cpu: [s390x]
     os: [linux]
 
+  '@rollup/rollup-linux-s390x-gnu@4.60.1':
+    resolution: {integrity: sha512-wcuocpaOlaL1COBYiA89O6yfjlp3RwKDeTIA0hM7OpmhR1Bjo9j31G1uQVpDlTvwxGn2nQs65fBFL5UFd76FcQ==}
+    cpu: [s390x]
+    os: [linux]
+
   '@rollup/rollup-linux-x64-gnu@4.30.1':
     resolution: {integrity: sha512-UtgGb7QGgXDIO+tqqJ5oZRGHsDLO8SlpE4MhqpY9Llpzi5rJMvrK6ZGhsRCST2abZdBqIBeXW6WPD5fGK5SDwg==}
+    cpu: [x64]
+    os: [linux]
+
+  '@rollup/rollup-linux-x64-gnu@4.60.1':
+    resolution: {integrity: sha512-77PpsFQUCOiZR9+LQEFg9GClyfkNXj1MP6wRnzYs0EeWbPcHs02AXu4xuUbM1zhwn3wqaizle3AEYg5aeoohhg==}
     cpu: [x64]
     os: [linux]
 
@@ -5893,8 +5986,28 @@ packages:
     cpu: [x64]
     os: [linux]
 
+  '@rollup/rollup-linux-x64-musl@4.60.1':
+    resolution: {integrity: sha512-5cIATbk5vynAjqqmyBjlciMJl1+R/CwX9oLk/EyiFXDWd95KpHdrOJT//rnUl4cUcskrd0jCCw3wpZnhIHdD9w==}
+    cpu: [x64]
+    os: [linux]
+
+  '@rollup/rollup-openbsd-x64@4.60.1':
+    resolution: {integrity: sha512-cl0w09WsCi17mcmWqqglez9Gk8isgeWvoUZ3WiJFYSR3zjBQc2J5/ihSjpl+VLjPqjQ/1hJRcqBfLjssREQILw==}
+    cpu: [x64]
+    os: [openbsd]
+
+  '@rollup/rollup-openharmony-arm64@4.60.1':
+    resolution: {integrity: sha512-4Cv23ZrONRbNtbZa37mLSueXUCtN7MXccChtKpUnQNgF010rjrjfHx3QxkS2PI7LqGT5xXyYs1a7LbzAwT0iCA==}
+    cpu: [arm64]
+    os: [openharmony]
+
   '@rollup/rollup-win32-arm64-msvc@4.30.1':
     resolution: {integrity: sha512-WabtHWiPaFF47W3PkHnjbmWawnX/aE57K47ZDT1BXTS5GgrBUEpvOzq0FI0V/UYzQJgdb8XlhVNH8/fwV8xDjw==}
+    cpu: [arm64]
+    os: [win32]
+
+  '@rollup/rollup-win32-arm64-msvc@4.60.1':
+    resolution: {integrity: sha512-i1okWYkA4FJICtr7KpYzFpRTHgy5jdDbZiWfvny21iIKky5YExiDXP+zbXzm3dUcFpkEeYNHgQ5fuG236JPq0g==}
     cpu: [arm64]
     os: [win32]
 
@@ -5903,8 +6016,23 @@ packages:
     cpu: [ia32]
     os: [win32]
 
+  '@rollup/rollup-win32-ia32-msvc@4.60.1':
+    resolution: {integrity: sha512-u09m3CuwLzShA0EYKMNiFgcjjzwqtUMLmuCJLeZWjjOYA3IT2Di09KaxGBTP9xVztWyIWjVdsB2E9goMjZvTQg==}
+    cpu: [ia32]
+    os: [win32]
+
+  '@rollup/rollup-win32-x64-gnu@4.60.1':
+    resolution: {integrity: sha512-k+600V9Zl1CM7eZxJgMyTUzmrmhB/0XZnF4pRypKAlAgxmedUA+1v9R+XOFv56W4SlHEzfeMtzujLJD22Uz5zg==}
+    cpu: [x64]
+    os: [win32]
+
   '@rollup/rollup-win32-x64-msvc@4.30.1':
     resolution: {integrity: sha512-D6qjsXGcvhTjv0kI4fU8tUuBDF/Ueee4SVX79VfNDXZa64TfCW1Slkb6Z7O1p7vflqZjcmOVdZlqf8gvJxc6og==}
+    cpu: [x64]
+    os: [win32]
+
+  '@rollup/rollup-win32-x64-msvc@4.60.1':
+    resolution: {integrity: sha512-lWMnixq/QzxyhTV6NjQJ4SFo1J6PvOX8vUx5Wb4bBPsEb+8xZ89Bz6kOXpfXj9ak9AHTQVQzlgzBEc1SyM27xQ==}
     cpu: [x64]
     os: [win32]
 
@@ -6435,6 +6563,9 @@ packages:
 
   '@types/estree@1.0.6':
     resolution: {integrity: sha512-AYnb1nQyY49te+VRAVgmzfcgjYS91mY5P0TKUDCLEM+gNnA+3T6rWITXRLYCpahpqSQbN5cE+gHpnPyXjHWxcw==}
+
+  '@types/estree@1.0.8':
+    resolution: {integrity: sha512-dWHzHa2WqEXI/O1E9OjrocMTKJl2mSrEolh1Iomrv6U+JuNwaHXsXx9bLu5gG7BUWFIN0skIQJQ/L1rIex4X6w==}
 
   '@types/glob-to-regexp@0.4.1':
     resolution: {integrity: sha512-S0mIukll6fbF0tvrKic/jj+jI8SHoSvGU+Cs95b/jzZEnBYCbj+7aJtQ9yeABuK3xP1okwA3jEH9qIRayijnvQ==}
@@ -7254,6 +7385,10 @@ packages:
   balanced-match@1.0.2:
     resolution: {integrity: sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==}
 
+  balanced-match@4.0.4:
+    resolution: {integrity: sha512-BLrgEcRTwX2o6gGxGOCNyMvGSp35YofuYzw9h1IMTRmKqttAZZVU67bdb9Pr2vUHA8+j3i2tJfjO6C6+4myGTA==}
+    engines: {node: 18 || 20 || >=22}
+
   bare-events@2.5.4:
     resolution: {integrity: sha512-+gFfDkR8pj4/TrWCGUGWmJIkBwuxPS5F+a5yWjOHQt2hHvNZd5YLzadjmDUtFmMM4y429bnKLa8bYBMHcYdnQA==}
 
@@ -7324,6 +7459,13 @@ packages:
 
   brace-expansion@2.0.1:
     resolution: {integrity: sha512-XnAIvQ8eM+kC6aULx6wuQiwVsnzsi9d3WxzV3FpWTGA19F621kwdbsAcFKXgKUHZWsy+mY6iL1sHTxWEFCytDA==}
+
+  brace-expansion@2.0.3:
+    resolution: {integrity: sha512-MCV/fYJEbqx68aE58kv2cA/kiky1G8vux3OR6/jbS+jIMe/6fJWa0DTzJU7dqijOWYwHi1t29FlfYI9uytqlpA==}
+
+  brace-expansion@5.0.5:
+    resolution: {integrity: sha512-VZznLgtwhn+Mact9tfiwx64fA9erHH/MCXEUfB/0bX/6Fz6ny5EGTXYltMocqg4xFAQZtnO3DHWWXi8RiuN7cQ==}
+    engines: {node: 18 || 20 || >=22}
 
   braces@3.0.3:
     resolution: {integrity: sha512-yQbXgO/OSZVD2IsiLlro+7Hf6Q18EJrKSEsdoMzKePKXct3gvD8oLcOQdIzGupr5Fj+EDe8gO/lxc1BzfMpxvA==}
@@ -7985,8 +8127,11 @@ packages:
     resolution: {integrity: sha512-TLz+x/vEXm/Y7P7wn1EJFNLxYpUD4TgMosxY6fAVJUnJMbupHBOncxyWUG9OpTaH9EBD7uFI5LfEgmMOc54DsA==}
     engines: {node: '>=8'}
 
-  devalue@4.3.2:
-    resolution: {integrity: sha512-KqFl6pOgOW+Y6wJgu80rHpo2/3H07vr8ntR9rkkFIRETewbf5GaYYcakYfiKz89K+sLsuPkQIZaXDMjUObZwWg==}
+  devalue@4.3.3:
+    resolution: {integrity: sha512-UH8EL6H2ifcY8TbD2QsxwCC/pr5xSwPvv85LrLXVihmHVC3T3YqTCIwnR5ak0yO1KYqlxrPVOA/JVZJYPy2ATg==}
+
+  devalue@5.6.4:
+    resolution: {integrity: sha512-Gp6rDldRsFh/7XuouDbxMH3Mx8GMCcgzIb1pDTvNyn8pZGQ22u+Wa+lGV9dQCltFQ7uVw0MhRyb8XDskNFOReA==}
 
   devtools-protocol@0.0.1182435:
     resolution: {integrity: sha512-EmlkWb62wSbQNE1gRZZsi4KZYRaF5Skpp183LhRU7+sadKR06O1dHCjZmFSEG6Kv7P6S/UYLxcY3NlYwqKM99w==}
@@ -8548,8 +8693,9 @@ packages:
       picomatch:
         optional: true
 
-  fdir@6.4.4:
-    resolution: {integrity: sha512-1NZP+GK4GfuAv3PqKvxQRDMjdSRZjnkq7KfhlNrCNNlZ0ygQFpebfrnfnq/W7fpUnAv9aGWmY1zKx7FYL3gwhg==}
+  fdir@6.5.0:
+    resolution: {integrity: sha512-tIbYtZbucOs0BRGqPJkshJUYdL+SDH7dVM8gjy+ERp3WAUjLEFJE+02kanyHtwjWOnwrKYBiwAmM0p4kLJAnXg==}
+    engines: {node: '>=12.0.0'}
     peerDependencies:
       picomatch: ^3 || ^4
     peerDependenciesMeta:
@@ -8641,6 +8787,9 @@ packages:
 
   flatted@3.3.3:
     resolution: {integrity: sha512-GX+ysw4PBCz0PzosHDepZGANEuFCMLrnRTiEy9McGjmkCQYwRq4A/X786G/fjM/+OjsWSU1ZrY5qyARZmO/uwg==}
+
+  flatted@3.4.2:
+    resolution: {integrity: sha512-PjDse7RzhcPkIJwy5t7KPWQSZ9cAbzQXcafsetQoD7sOJRQlGikNbx7yZp2OotDnJyrDcbyRq3Ttb18iYOqkxA==}
 
   for-each@0.3.3:
     resolution: {integrity: sha512-jqYfLp7mo9vIyQf8ykW2v7A+2N4QjeCeI5+Dz9XraiO1ign81wjiH7Fb9vSOWvQfNtmSa4H2RoQTrrXivdUZmw==}
@@ -8780,21 +8929,23 @@ packages:
 
   glob@10.4.5:
     resolution: {integrity: sha512-7Bv8RF0k6xjo7d4A/PxYLbUCfb6c+Vpd2/mB2yRDlew7Jb5hEXiCD9ibfO7wpk8i4sevK6DFny9h7EYbM3/sHg==}
+    deprecated: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
     hasBin: true
 
   glob@11.0.1:
     resolution: {integrity: sha512-zrQDm8XPnYEKawJScsnM0QzobJxlT/kHOOlRTio8IH/GrmxRE5fjllkzdaHclIuNjUQTJYH2xHNIGfdpJkDJUw==}
     engines: {node: 20 || >=22}
+    deprecated: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
     hasBin: true
 
   glob@7.2.3:
     resolution: {integrity: sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==}
-    deprecated: Glob versions prior to v9 are no longer supported
+    deprecated: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
 
   glob@8.1.0:
     resolution: {integrity: sha512-r8hpEjiQEYlF2QU0df3dS+nxxSIreXQS1qRhMJM0Q5NDdR386C7jb7Hwwod8Fgiuex+k0GFjgft18yvxm5XoCQ==}
     engines: {node: '>=12'}
-    deprecated: Glob versions prior to v9 are no longer supported
+    deprecated: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
 
   globals@11.12.0:
     resolution: {integrity: sha512-WOBp/EEGUiIsJSp7wcv/y6MO+lV9UoncWqxuFfm8eBwzWNgyfBd6Gz+IeKQ9jCmyhoH99g15M3T+QaVHFjizVA==}
@@ -8904,8 +9055,8 @@ packages:
     resolution: {integrity: sha512-kUGoI3p7u6B41z/dp33G6OaL7J4DRqRYwVmeIlwLClx7yaaAy7hoDExnuejTKtuDwfcatGmddHDEOjf6EyIxtQ==}
     engines: {node: '>=10.0.0'}
 
-  hono@4.7.1:
-    resolution: {integrity: sha512-V3eWoPkBxoNgFCkSc5Y5rpLF6YoQQx1pkYO4qrF6YfOw8RZbujUNlJLZCxh0z9gZct70+je2Ih7Zrdpv21hP9w==}
+  hono@4.12.7:
+    resolution: {integrity: sha512-jq9l1DM0zVIvsm3lv9Nw9nlJnMNPOcAtsbsgiUhWcFzPE99Gvo6yRTlszSLLYacMeQ6quHD6hMfId8crVHvexw==}
     engines: {node: '>=16.9.0'}
 
   hookable@5.5.3:
@@ -9842,9 +9993,9 @@ packages:
     engines: {node: '>=18.0.0'}
     hasBin: true
 
-  minimatch@10.0.1:
-    resolution: {integrity: sha512-ethXTt3SGGR+95gudmqJ1eNhRO7eGEGIgYA9vnPatK4/etz2MEVDno5GMCibdMTuBMyElzIlgxMna3K94XDIDQ==}
-    engines: {node: 20 || >=22}
+  minimatch@10.2.5:
+    resolution: {integrity: sha512-MULkVLfKGYDFYejP07QOurDLLQpcjk7Fw+7jXS2R2czRQzR56yHRveU5NDJEOviH+hETZKSkIk5c+T23GjFUMg==}
+    engines: {node: 18 || 20 || >=22}
 
   minimatch@3.0.8:
     resolution: {integrity: sha512-6FsRAQsxQ61mw+qP1ZzbL9Bc78x2p5OqNgNpnoAFLTrX8n5Kxph0CsnhmKKNXTWjXqU5L0pGPR7hYk+XWZr60Q==}
@@ -9856,12 +10007,20 @@ packages:
     resolution: {integrity: sha512-lKwV/1brpG6mBUFHtb7NUmtABCb2WZZmm2wNiOA5hAb8VdCS4B3dtMWyvcoViccwAW/COERjXLt0zP1zXUN26g==}
     engines: {node: '>=10'}
 
+  minimatch@5.1.9:
+    resolution: {integrity: sha512-7o1wEA2RyMP7Iu7GNba9vc0RWWGACJOCZBJX2GJWip0ikV+wcOsgVuY9uE8CPiyQhkGFSlhuSkZPavN7u1c2Fw==}
+    engines: {node: '>=10'}
+
   minimatch@7.4.6:
     resolution: {integrity: sha512-sBz8G/YjVniEz6lKPNpKxXwazJe4c19fEfV2GDMX6AjFz+MX9uDWIZW8XreVhkFW3fkIdTv/gxWr/Kks5FFAVw==}
     engines: {node: '>=10'}
 
   minimatch@9.0.5:
     resolution: {integrity: sha512-G6T0ZX48xgozx7587koeX9Ys2NYy6Gmv//P89sEte9V9whIapMNF4idKxnW2QtCcLiTWlb/wfCabAtAFWhhBow==}
+    engines: {node: '>=16 || 14 >=14.17'}
+
+  minimatch@9.0.9:
+    resolution: {integrity: sha512-OBwBN9AL4dqmETlpS2zasx+vTeWclWzkblfZk7KTA5j3jeOONz/tRCnZomUyvNg83wL5Zv9Ss6HMJXAgL8R2Yg==}
     engines: {node: '>=16 || 14 >=14.17'}
 
   minimist@1.2.6:
@@ -9976,6 +10135,11 @@ packages:
   nan@2.18.0:
     resolution: {integrity: sha512-W7tfG7vMOGtD30sHoZSSc/JVYiyDPEyQVso/Zz+/uQd0B0L46gtC+pHha5FFMRpil6fm/AoEcRWyOVi4+E/f8w==}
 
+  nanoid@3.3.11:
+    resolution: {integrity: sha512-N8SpfPUnUp1bK+PMYW8qSWdl9U+wwNWI4QKxOYDy9JAro3WMX7p2OeVRF9v+347pnakNevPmiHhNmZ2HbFA76w==}
+    engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
+    hasBin: true
+
   nanoid@3.3.8:
     resolution: {integrity: sha512-WNLf5Sd8oZxOm+TzppcYk8gVOgP+l58xNy58D0nbUnOxOWRWvlcCV4kUF7ltmI6PsrLl/BgKEyS4mqsGChFN0w==}
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
@@ -10034,8 +10198,8 @@ packages:
       encoding:
         optional: true
 
-  node-forge@1.3.1:
-    resolution: {integrity: sha512-dPEtOeMvF9VMcYV/1Wb8CPoVAXtp6MKMlcbAt4ddqmGqUJ6fQZFXkNZNkNlfevtNkGtaSoXf/vNNNSvgrdXwtA==}
+  node-forge@1.4.0:
+    resolution: {integrity: sha512-LarFH0+6VfriEhqMMcLX2F7SwSXeWwnEAJEsYm5QKWchiVYVvJyV9v7UDvUv+w5HO23ZpQTXDv/GxdDdMyOuoQ==}
     engines: {node: '>= 6.13.0'}
 
   node-gyp-build@4.8.0:
@@ -10332,6 +10496,10 @@ packages:
   path-to-regexp@6.3.0:
     resolution: {integrity: sha512-Yhpw4T9C6hPpgPeA28us07OJeqZ5EzQTkbfwuhsUg0c237RomFoETJgmp2sa3F/41gfLE6G5cqcYwznmeEeOlQ==}
 
+  path-to-regexp@7.0.0:
+    resolution: {integrity: sha512-58Y94bQqF3zBIASFNiufRPH1NfgZth1qwZ35radL87sg8pgbVqr6uikAhqZtFD+w65MGH6SWnY/ly3GbrM4fbg==}
+    engines: {node: '>=16'}
+
   path-type@4.0.0:
     resolution: {integrity: sha512-gDKb8aZMDeD/tZWs9P6+q0J9Mwkdl6xMV8TjnGP3qJVJ06bdMgkbBlLU8IdfOsIsFz2BW1rNVT3XuNEl8zPAvw==}
     engines: {node: '>=8'}
@@ -10437,6 +10605,10 @@ packages:
 
   picomatch@4.0.2:
     resolution: {integrity: sha512-M7BAV6Rlcy5u+m6oPhAPFgJTzAioX/6B0DxyvDlo9l8+T3nLKbrczg2WLUyzd45L8RqfUMyGPzekbMvX2Ldkwg==}
+    engines: {node: '>=12'}
+
+  picomatch@4.0.4:
+    resolution: {integrity: sha512-QP88BAKvMam/3NxH6vj2o21R6MjxZUAd6nlwAS/pnGvN9IVLocLHxGYIzFhg6fUQ+5th6P4dv4eW9jX3DSIj7A==}
     engines: {node: '>=12'}
 
   pify@3.0.0:
@@ -10713,6 +10885,10 @@ packages:
     resolution: {integrity: sha512-6oz2beyjc5VMn/KV1pPw8fliQkhBXrVn1Z3TVyqZxU8kZpzEKhBdmCFqI6ZbmGtamQvQGuU1sgPTk8ZrXDD7jQ==}
     engines: {node: ^10 || ^12 || >=14}
 
+  postcss@8.5.8:
+    resolution: {integrity: sha512-OW/rX8O/jXnm82Ey1k44pObPtdblfiuWnrd8X7GJ7emImCOstunGbXUpp7HdBrFQX6rJzn3sPT397Wp5aCwCHg==}
+    engines: {node: ^10 || ^12 || >=14}
+
   postgres-array@2.0.0:
     resolution: {integrity: sha512-VpZrUqU5A69eQyW2c5CA1jtLecCsN2U/bD6VilrFDWq5+5UIEVO7nazS3TEcHf1zuPYO/sqGvUvW62g86RXZuA==}
     engines: {node: '>=4'}
@@ -10751,6 +10927,7 @@ packages:
   prebuild-install@7.1.2:
     resolution: {integrity: sha512-UnNke3IQb6sgarcZIDU3gbMeTp/9SSU1DAIkil7PrqG1vZlBtY5msYccSKSHDqa3hNg436IXK+SNImReuA1wEQ==}
     engines: {node: '>=10'}
+    deprecated: No longer maintained. Please contact the author of the relevant native addon; alternatives are available.
     hasBin: true
 
   prelude-ls@1.2.1:
@@ -11034,6 +11211,7 @@ packages:
 
   realistic-structured-clone@1.0.1:
     resolution: {integrity: sha512-UnQGgXdxTg+vwonhBz6VvfNFeqn/DUk0ntL/rSrN1mBOR261ZzLP3LQAFSBfIytyZYn4yue/64pZ7aN0x/RpiQ==}
+    deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
 
   recast@0.22.0:
     resolution: {integrity: sha512-5AAx+mujtXijsEavc5lWXBPQqrM4+Dl5qNH96N2aNeuJFUzpiiToKPsxQD/zAIJHspz7zz0maX0PCtCTFVlixQ==}
@@ -11158,6 +11336,11 @@ packages:
 
   rollup@4.30.1:
     resolution: {integrity: sha512-mlJ4glW020fPuLi7DkM/lN97mYEZGWeqBnrljzN0gs7GLctqX3lNWxKQ7Gl712UAX+6fog/L3jh4gb7R6aVi3w==}
+    engines: {node: '>=18.0.0', npm: '>=8.0.0'}
+    hasBin: true
+
+  rollup@4.60.1:
+    resolution: {integrity: sha512-VmtB2rFU/GroZ4oL8+ZqXgSA38O6GR8KSIvWmEFv63pQ0G6KaBH9s07PO8XTXP4vI+3UJUEypOfjkGfmSBBR0w==}
     engines: {node: '>=18.0.0', npm: '>=8.0.0'}
     hasBin: true
 
@@ -11354,6 +11537,10 @@ packages:
     resolution: {integrity: sha512-FoqMu0NCGBLCcAkS1qA+XJIQTR6/JHfQXl+uGteNCQ76T91DMUjPa9xfmeqMY3z80nLSg9yQmNjK0Px6RWsH/A==}
     engines: {node: '>=18'}
 
+  sirv@3.0.2:
+    resolution: {integrity: sha512-2wcC/oGxHis/BoHkkPwldgiPSYcpZK3JU28WoMVv55yHJgcZ8rlXvuG9iZggz+sU1d4bRgIGASwyWqjxu3FM0g==}
+    engines: {node: '>=18'}
+
   sisteransi@1.0.5:
     resolution: {integrity: sha512-bLGGlR1QxBcynn2d5YmDX4MGjlZvy2MRBDRNHLJ8VI6l6+9FUiyTFNJ0IveOSP0bcXgVDPRcfGqA0pjaqUpfVg==}
 
@@ -11416,6 +11603,7 @@ packages:
   source-map@0.8.0-beta.0:
     resolution: {integrity: sha512-2ymg6oRBpebeZi9UUNsgQ89bhx01TcTkmNTGnNO88imTmbSgy4nfujrgVEFKWpMTEGA11EDkTt7mqObTPdigIA==}
     engines: {node: '>= 8'}
+    deprecated: The work that was done in this beta branch won't be included in future versions
 
   sourcemap-codec@1.4.8:
     resolution: {integrity: sha512-9NykojV5Uih4lgo5So5dtw+f0JgJX30KCNI8gwhz2J9A15wD0Ml6tjHKwf6fTSa6fAdVBdZeNOs9eJ71qCk8vA==}
@@ -11636,6 +11824,7 @@ packages:
   tar@6.2.1:
     resolution: {integrity: sha512-DZ4yORTwrbTj/7MZYq2w+/ZFdI6OZ/f9SFHR+71gIVUZhOQPHzVCLpvRnPgyaMpfWxxk/4ONva3GQSyNIKRv6A==}
     engines: {node: '>=10'}
+    deprecated: Old versions of tar are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
 
   temp-dir@3.0.0:
     resolution: {integrity: sha512-nHc6S/bwIilKHNRgK/3jlhDoIHcp45YgyiwcAk46Tr0LfEqGBVpmiAyuiuxeVE44m3mXnEeVhaipLOEWmH+Njw==}
@@ -11689,6 +11878,10 @@ packages:
 
   tinyglobby@0.2.13:
     resolution: {integrity: sha512-mEwzpUgrLySlveBwEVDMKk5B57bhLPYovRfPAXD5gA/98Opn0rCDj3GtLwFvCvH5RK9uPCExUROW5NjDwvqkxw==}
+    engines: {node: '>=12.0.0'}
+
+  tinyglobby@0.2.15:
+    resolution: {integrity: sha512-j2Zq4NyQYG5XMST4cbs02Ak8iJUdxRM0XI5QyxXuZOzKOINmWurp3smXu3y5wDcJrptwpSjgXHzIQxR0omXljQ==}
     engines: {node: '>=12.0.0'}
 
   tinypool@1.0.1:
@@ -12017,6 +12210,10 @@ packages:
     resolution: {integrity: sha512-BUgJXc752Kou3oOIuU1i+yZZypyZRqNPW0vqoMPl8VaoalSfeR0D8/t4iAS3yirs79SSMTxTag+ZC86uswv+Cw==}
     engines: {node: '>=18.17'}
 
+  undici@6.24.1:
+    resolution: {integrity: sha512-sC+b0tB1whOCzbtlx20fx3WgCXwkW627p4EA9uM+/tNNPkSS+eSEld6pAs9nDv7WbY1UUljBMYPtu9BCOrCWKA==}
+    engines: {node: '>=18.17'}
+
   unenv@2.0.0-rc.14:
     resolution: {integrity: sha512-od496pShMen7nOy5VmVJCnq8rptd45vh6Nx/r2iPbrba6pa6p+tS2ywuIHRZ/OBvSbQZB0kWvpO9XBNVFXHD3Q==}
 
@@ -12235,6 +12432,46 @@ packages:
       yaml:
         optional: true
 
+  vite@6.4.2:
+    resolution: {integrity: sha512-2N/55r4JDJ4gdrCvGgINMy+HH3iRpNIz8K6SFwVsA+JbQScLiC+clmAxBgwiSPgcG9U15QmvqCGWzMbqda5zGQ==}
+    engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
+    hasBin: true
+    peerDependencies:
+      '@types/node': ^18.19.75
+      jiti: '>=1.21.0'
+      less: '*'
+      lightningcss: ^1.21.0
+      sass: '*'
+      sass-embedded: '*'
+      stylus: '*'
+      sugarss: '*'
+      terser: ^5.16.0
+      tsx: ^4.8.1
+      yaml: ^2.4.2
+    peerDependenciesMeta:
+      '@types/node':
+        optional: true
+      jiti:
+        optional: true
+      less:
+        optional: true
+      lightningcss:
+        optional: true
+      sass:
+        optional: true
+      sass-embedded:
+        optional: true
+      stylus:
+        optional: true
+      sugarss:
+        optional: true
+      terser:
+        optional: true
+      tsx:
+        optional: true
+      yaml:
+        optional: true
+
   vitest-websocket-mock@0.4.0:
     resolution: {integrity: sha512-tGnOwE2nC8jfioQXDrX+lZ8EVrF+IO2NVqe1vV9h945W/hlR0S6ZYbMqCJGG3Nyd//c5XSe1IGLD2ZgE2D1I7Q==}
     peerDependencies:
@@ -12328,6 +12565,7 @@ packages:
   whatwg-encoding@3.1.1:
     resolution: {integrity: sha512-6qN4hJdMwfYBtE3YBTTHhoeuUrDBPZmbQaxWAqSALV/MeEnR5z1xd8UKud2RAkFoPkmB+hli1TZSnyi84xz1vQ==}
     engines: {node: '>=18'}
+    deprecated: Use @exodus/bytes instead for a more spec-conformant and faster implementation
 
   whatwg-mimetype@4.0.0:
     resolution: {integrity: sha512-QaKxh0eNIi2mE9p2vEdzfagOKHCcj1pJ56EEHGQOVxp8r9/iszLUUV7v89x9O1p/T+NlTM5W7jW6+cz4Fq1YVg==}
@@ -13773,7 +14011,7 @@ snapshots:
       '@vitest/snapshot': 3.1.1
       birpc: 0.2.14
       cjs-module-lexer: 1.2.3
-      devalue: 4.3.2
+      devalue: 4.3.3
       esbuild: 0.17.19
       miniflare: 3.20250310.0
       semver: 7.7.1
@@ -13791,7 +14029,7 @@ snapshots:
       '@vitest/snapshot': 3.1.1
       birpc: 0.2.14
       cjs-module-lexer: 1.2.3
-      devalue: 4.3.2
+      devalue: 4.3.3
       miniflare: 4.20250417.0
       semver: 7.7.1
       vitest: 3.1.1(@types/node@18.19.76)(@vitest/ui@3.1.1)(jiti@2.4.2)(lightningcss@1.29.2)(msw@2.4.3(typescript@5.7.3))(supports-color@9.2.2)
@@ -14396,9 +14634,9 @@ snapshots:
       cac: 6.7.14
       mime-types: 2.1.35
 
-  '@hono/zod-validator@0.4.2(hono@4.7.1)(zod@3.22.3)':
+  '@hono/zod-validator@0.4.2(hono@4.12.7)(zod@3.22.3)':
     dependencies:
-      hono: 4.7.1
+      hono: 4.12.7
       zod: 3.22.3
 
   '@humanwhocodes/config-array@0.13.0':
@@ -14972,6 +15210,9 @@ snapshots:
 
   '@polka/url@1.0.0-next.28': {}
 
+  '@polka/url@1.0.0-next.29':
+    optional: true
+
   '@prisma/adapter-d1@6.3.1':
     dependencies:
       '@cloudflare/workers-types': 4.20240614.0
@@ -15172,10 +15413,10 @@ snapshots:
       '@rollup/pluginutils': 5.1.4(rollup@4.30.1)
       commondir: 1.0.1
       estree-walker: 2.0.2
-      fdir: 6.4.3(picomatch@4.0.2)
+      fdir: 6.5.0(picomatch@4.0.4)
       is-reference: 1.2.1
       magic-string: 0.30.17
-      picomatch: 4.0.2
+      picomatch: 4.0.4
     optionalDependencies:
       rollup: 4.30.1
 
@@ -15202,55 +15443,106 @@ snapshots:
     optionalDependencies:
       rollup: 4.30.1
 
+  '@rollup/plugin-replace@6.0.2(rollup@4.60.1)':
+    dependencies:
+      '@rollup/pluginutils': 5.1.4(rollup@4.60.1)
+      magic-string: 0.30.17
+    optionalDependencies:
+      rollup: 4.60.1
+
   '@rollup/pluginutils@4.2.1':
     dependencies:
       estree-walker: 2.0.2
       picomatch: 2.3.1
 
-  '@rollup/pluginutils@5.1.0(rollup@4.30.1)':
+  '@rollup/pluginutils@5.1.0(rollup@4.60.1)':
     dependencies:
       '@types/estree': 1.0.6
       estree-walker: 2.0.2
       picomatch: 2.3.1
     optionalDependencies:
-      rollup: 4.30.1
+      rollup: 4.60.1
 
   '@rollup/pluginutils@5.1.4(rollup@4.30.1)':
     dependencies:
       '@types/estree': 1.0.6
       estree-walker: 2.0.2
-      picomatch: 4.0.2
+      picomatch: 4.0.4
     optionalDependencies:
       rollup: 4.30.1
 
+  '@rollup/pluginutils@5.1.4(rollup@4.60.1)':
+    dependencies:
+      '@types/estree': 1.0.6
+      estree-walker: 2.0.2
+      picomatch: 4.0.4
+    optionalDependencies:
+      rollup: 4.60.1
+
   '@rollup/rollup-android-arm-eabi@4.30.1':
+    optional: true
+
+  '@rollup/rollup-android-arm-eabi@4.60.1':
     optional: true
 
   '@rollup/rollup-android-arm64@4.30.1':
     optional: true
 
+  '@rollup/rollup-android-arm64@4.60.1':
+    optional: true
+
   '@rollup/rollup-darwin-arm64@4.30.1':
+    optional: true
+
+  '@rollup/rollup-darwin-arm64@4.60.1':
     optional: true
 
   '@rollup/rollup-darwin-x64@4.30.1':
     optional: true
 
+  '@rollup/rollup-darwin-x64@4.60.1':
+    optional: true
+
   '@rollup/rollup-freebsd-arm64@4.30.1':
+    optional: true
+
+  '@rollup/rollup-freebsd-arm64@4.60.1':
     optional: true
 
   '@rollup/rollup-freebsd-x64@4.30.1':
     optional: true
 
+  '@rollup/rollup-freebsd-x64@4.60.1':
+    optional: true
+
   '@rollup/rollup-linux-arm-gnueabihf@4.30.1':
+    optional: true
+
+  '@rollup/rollup-linux-arm-gnueabihf@4.60.1':
     optional: true
 
   '@rollup/rollup-linux-arm-musleabihf@4.30.1':
     optional: true
 
+  '@rollup/rollup-linux-arm-musleabihf@4.60.1':
+    optional: true
+
   '@rollup/rollup-linux-arm64-gnu@4.30.1':
     optional: true
 
+  '@rollup/rollup-linux-arm64-gnu@4.60.1':
+    optional: true
+
   '@rollup/rollup-linux-arm64-musl@4.30.1':
+    optional: true
+
+  '@rollup/rollup-linux-arm64-musl@4.60.1':
+    optional: true
+
+  '@rollup/rollup-linux-loong64-gnu@4.60.1':
+    optional: true
+
+  '@rollup/rollup-linux-loong64-musl@4.60.1':
     optional: true
 
   '@rollup/rollup-linux-loongarch64-gnu@4.30.1':
@@ -15259,25 +15551,64 @@ snapshots:
   '@rollup/rollup-linux-powerpc64le-gnu@4.30.1':
     optional: true
 
+  '@rollup/rollup-linux-ppc64-gnu@4.60.1':
+    optional: true
+
+  '@rollup/rollup-linux-ppc64-musl@4.60.1':
+    optional: true
+
   '@rollup/rollup-linux-riscv64-gnu@4.30.1':
+    optional: true
+
+  '@rollup/rollup-linux-riscv64-gnu@4.60.1':
+    optional: true
+
+  '@rollup/rollup-linux-riscv64-musl@4.60.1':
     optional: true
 
   '@rollup/rollup-linux-s390x-gnu@4.30.1':
     optional: true
 
+  '@rollup/rollup-linux-s390x-gnu@4.60.1':
+    optional: true
+
   '@rollup/rollup-linux-x64-gnu@4.30.1':
+    optional: true
+
+  '@rollup/rollup-linux-x64-gnu@4.60.1':
     optional: true
 
   '@rollup/rollup-linux-x64-musl@4.30.1':
     optional: true
 
+  '@rollup/rollup-linux-x64-musl@4.60.1':
+    optional: true
+
+  '@rollup/rollup-openbsd-x64@4.60.1':
+    optional: true
+
+  '@rollup/rollup-openharmony-arm64@4.60.1':
+    optional: true
+
   '@rollup/rollup-win32-arm64-msvc@4.30.1':
+    optional: true
+
+  '@rollup/rollup-win32-arm64-msvc@4.60.1':
     optional: true
 
   '@rollup/rollup-win32-ia32-msvc@4.30.1':
     optional: true
 
+  '@rollup/rollup-win32-ia32-msvc@4.60.1':
+    optional: true
+
+  '@rollup/rollup-win32-x64-gnu@4.60.1':
+    optional: true
+
   '@rollup/rollup-win32-x64-msvc@4.30.1':
+    optional: true
+
+  '@rollup/rollup-win32-x64-msvc@4.60.1':
     optional: true
 
   '@rushstack/node-core-library@5.10.2(@types/node@18.19.76)':
@@ -15959,6 +16290,8 @@ snapshots:
 
   '@types/estree@1.0.6': {}
 
+  '@types/estree@1.0.8': {}
+
   '@types/glob-to-regexp@0.4.1': {}
 
   '@types/glob@7.2.0':
@@ -16263,7 +16596,7 @@ snapshots:
       debug: 4.3.7(supports-color@9.2.2)
       globby: 11.1.0
       is-glob: 4.0.3
-      minimatch: 9.0.5
+      minimatch: 9.0.9
       semver: 7.7.1
       ts-api-utils: 1.4.3(typescript@5.6.3)
     optionalDependencies:
@@ -16490,14 +16823,14 @@ snapshots:
       minimatch: 7.4.6
       semver: 7.6.3
 
-  '@vitejs/plugin-react@4.3.3(vite@5.4.14(@types/node@18.19.76)(lightningcss@1.29.2))':
+  '@vitejs/plugin-react@4.3.3(vite@6.4.2(@types/node@18.19.76)(jiti@2.4.2)(lightningcss@1.29.2)(tsx@3.12.10))':
     dependencies:
       '@babel/core': 7.26.0
       '@babel/plugin-transform-react-jsx-self': 7.25.9(@babel/core@7.26.0)
       '@babel/plugin-transform-react-jsx-source': 7.25.9(@babel/core@7.26.0)
       '@types/babel__core': 7.20.5
       react-refresh: 0.14.2
-      vite: 5.4.14(@types/node@18.19.76)(lightningcss@1.29.2)
+      vite: 6.4.2(@types/node@18.19.76)(jiti@2.4.2)(lightningcss@1.29.2)(tsx@3.12.10)
     transitivePeerDependencies:
       - supports-color
 
@@ -16589,10 +16922,10 @@ snapshots:
     dependencies:
       '@vitest/utils': 2.1.9
       fflate: 0.8.2
-      flatted: 3.3.3
+      flatted: 3.4.2
       pathe: 1.1.2
-      sirv: 3.0.1
-      tinyglobby: 0.2.13
+      sirv: 3.0.2
+      tinyglobby: 0.2.15
       tinyrainbow: 1.2.0
       vitest: 2.1.9(@types/node@18.19.76)(@vitest/ui@2.1.9)(lightningcss@1.29.2)
     optional: true
@@ -16715,7 +17048,7 @@ snapshots:
       '@vue/compiler-vue2': 2.7.16
       '@vue/shared': 3.4.36
       computeds: 0.0.1
-      minimatch: 9.0.5
+      minimatch: 9.0.9
       muggle-string: 0.4.1
       path-browserify: 1.0.1
     optionalDependencies:
@@ -17068,6 +17401,8 @@ snapshots:
 
   balanced-match@1.0.2: {}
 
+  balanced-match@4.0.4: {}
+
   bare-events@2.5.4:
     optional: true
 
@@ -17151,6 +17486,14 @@ snapshots:
   brace-expansion@2.0.1:
     dependencies:
       balanced-match: 1.0.2
+
+  brace-expansion@2.0.3:
+    dependencies:
+      balanced-match: 1.0.2
+
+  brace-expansion@5.0.5:
+    dependencies:
+      balanced-match: 4.0.4
 
   braces@3.0.3:
     dependencies:
@@ -17808,7 +18151,9 @@ snapshots:
 
   detect-newline@3.1.0: {}
 
-  devalue@4.3.2: {}
+  devalue@4.3.3: {}
+
+  devalue@5.6.4: {}
 
   devtools-protocol@0.0.1182435: {}
 
@@ -18602,9 +18947,9 @@ snapshots:
     optionalDependencies:
       picomatch: 4.0.2
 
-  fdir@6.4.4(picomatch@4.0.2):
+  fdir@6.5.0(picomatch@4.0.4):
     optionalDependencies:
-      picomatch: 4.0.2
+      picomatch: 4.0.4
 
   fela-bindings@11.7.0(fela@11.7.0):
     dependencies:
@@ -18731,6 +19076,9 @@ snapshots:
   flat@5.0.2: {}
 
   flatted@3.3.3: {}
+
+  flatted@3.4.2:
+    optional: true
 
   for-each@0.3.3:
     dependencies:
@@ -18892,7 +19240,7 @@ snapshots:
     dependencies:
       foreground-child: 3.1.1
       jackspeak: 4.1.0
-      minimatch: 10.0.1
+      minimatch: 10.2.5
       minipass: 7.1.2
       package-json-from-dist: 1.0.0
       path-scurry: 2.0.0
@@ -18911,7 +19259,7 @@ snapshots:
       fs.realpath: 1.0.0
       inflight: 1.0.6
       inherits: 2.0.4
-      minimatch: 5.1.6
+      minimatch: 5.1.9
       once: 1.4.0
 
   globals@11.12.0: {}
@@ -19028,7 +19376,7 @@ snapshots:
 
   heap-js@2.5.0: {}
 
-  hono@4.7.1: {}
+  hono@4.12.7: {}
 
   hookable@5.5.3: {}
 
@@ -19886,9 +20234,9 @@ snapshots:
       - bufferutil
       - utf-8-validate
 
-  minimatch@10.0.1:
+  minimatch@10.2.5:
     dependencies:
-      brace-expansion: 2.0.1
+      brace-expansion: 5.0.5
 
   minimatch@3.0.8:
     dependencies:
@@ -19902,13 +20250,21 @@ snapshots:
     dependencies:
       brace-expansion: 2.0.1
 
+  minimatch@5.1.9:
+    dependencies:
+      brace-expansion: 2.0.3
+
   minimatch@7.4.6:
     dependencies:
-      brace-expansion: 2.0.1
+      brace-expansion: 2.0.3
 
   minimatch@9.0.5:
     dependencies:
       brace-expansion: 2.0.1
+
+  minimatch@9.0.9:
+    dependencies:
+      brace-expansion: 2.0.3
 
   minimist@1.2.6: {}
 
@@ -19953,7 +20309,7 @@ snapshots:
       postcss: 8.5.1
       postcss-nested: 7.0.2(postcss@8.5.1)
       semver: 7.7.1
-      tinyglobby: 0.2.13
+      tinyglobby: 0.2.15
     optionalDependencies:
       typescript: 5.7.3
       vue-tsc: 2.0.29(typescript@5.7.3)
@@ -20039,6 +20395,8 @@ snapshots:
   nan@2.18.0:
     optional: true
 
+  nanoid@3.3.11: {}
+
   nanoid@3.3.8: {}
 
   nanoid@5.1.0: {}
@@ -20078,7 +20436,7 @@ snapshots:
     optionalDependencies:
       encoding: 0.1.13
 
-  node-forge@1.3.1: {}
+  node-forge@1.4.0: {}
 
   node-gyp-build@4.8.0: {}
 
@@ -20366,6 +20724,8 @@ snapshots:
 
   path-to-regexp@6.3.0: {}
 
+  path-to-regexp@7.0.0: {}
+
   path-type@4.0.0: {}
 
   path-type@5.0.0: {}
@@ -20461,6 +20821,8 @@ snapshots:
   picomatch@3.0.1: {}
 
   picomatch@4.0.2: {}
+
+  picomatch@4.0.4: {}
 
   pify@3.0.0: {}
 
@@ -20564,12 +20926,12 @@ snapshots:
     dependencies:
       postcss: 8.5.1
 
-  postcss-load-config@6.0.1(jiti@2.4.2)(postcss@8.5.1):
+  postcss-load-config@6.0.1(jiti@2.4.2)(postcss@8.5.8):
     dependencies:
       lilconfig: 3.1.3
     optionalDependencies:
       jiti: 2.4.2
-      postcss: 8.5.1
+      postcss: 8.5.8
 
   postcss-merge-longhand@7.0.4(postcss@8.5.1):
     dependencies:
@@ -20709,6 +21071,12 @@ snapshots:
   postcss@8.5.1:
     dependencies:
       nanoid: 3.3.8
+      picocolors: 1.1.1
+      source-map-js: 1.2.1
+
+  postcss@8.5.8:
+    dependencies:
+      nanoid: 3.3.11
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
@@ -21029,7 +21397,7 @@ snapshots:
 
   readdir-glob@1.1.3:
     dependencies:
-      minimatch: 5.1.6
+      minimatch: 5.1.9
 
   readdirp@3.6.0:
     dependencies:
@@ -21193,6 +21561,37 @@ snapshots:
       '@rollup/rollup-win32-x64-msvc': 4.30.1
       fsevents: 2.3.3
 
+  rollup@4.60.1:
+    dependencies:
+      '@types/estree': 1.0.8
+    optionalDependencies:
+      '@rollup/rollup-android-arm-eabi': 4.60.1
+      '@rollup/rollup-android-arm64': 4.60.1
+      '@rollup/rollup-darwin-arm64': 4.60.1
+      '@rollup/rollup-darwin-x64': 4.60.1
+      '@rollup/rollup-freebsd-arm64': 4.60.1
+      '@rollup/rollup-freebsd-x64': 4.60.1
+      '@rollup/rollup-linux-arm-gnueabihf': 4.60.1
+      '@rollup/rollup-linux-arm-musleabihf': 4.60.1
+      '@rollup/rollup-linux-arm64-gnu': 4.60.1
+      '@rollup/rollup-linux-arm64-musl': 4.60.1
+      '@rollup/rollup-linux-loong64-gnu': 4.60.1
+      '@rollup/rollup-linux-loong64-musl': 4.60.1
+      '@rollup/rollup-linux-ppc64-gnu': 4.60.1
+      '@rollup/rollup-linux-ppc64-musl': 4.60.1
+      '@rollup/rollup-linux-riscv64-gnu': 4.60.1
+      '@rollup/rollup-linux-riscv64-musl': 4.60.1
+      '@rollup/rollup-linux-s390x-gnu': 4.60.1
+      '@rollup/rollup-linux-x64-gnu': 4.60.1
+      '@rollup/rollup-linux-x64-musl': 4.60.1
+      '@rollup/rollup-openbsd-x64': 4.60.1
+      '@rollup/rollup-openharmony-arm64': 4.60.1
+      '@rollup/rollup-win32-arm64-msvc': 4.60.1
+      '@rollup/rollup-win32-ia32-msvc': 4.60.1
+      '@rollup/rollup-win32-x64-gnu': 4.60.1
+      '@rollup/rollup-win32-x64-msvc': 4.60.1
+      fsevents: 2.3.3
+
   run-applescript@5.0.0:
     dependencies:
       execa: 5.1.1
@@ -21247,7 +21646,7 @@ snapshots:
 
   selfsigned@2.1.1:
     dependencies:
-      node-forge: 1.3.1
+      node-forge: 1.4.0
 
   sembear@0.7.0:
     dependencies:
@@ -21435,6 +21834,13 @@ snapshots:
       '@polka/url': 1.0.0-next.28
       mrmime: 2.0.1
       totalist: 3.0.1
+
+  sirv@3.0.2:
+    dependencies:
+      '@polka/url': 1.0.0-next.29
+      mrmime: 2.0.1
+      totalist: 3.0.1
+    optional: true
 
   sisteransi@1.0.5: {}
 
@@ -21807,8 +22213,13 @@ snapshots:
 
   tinyglobby@0.2.13:
     dependencies:
-      fdir: 6.4.4(picomatch@4.0.2)
-      picomatch: 4.0.2
+      fdir: 6.5.0(picomatch@4.0.4)
+      picomatch: 4.0.4
+
+  tinyglobby@0.2.15:
+    dependencies:
+      fdir: 6.5.0(picomatch@4.0.4)
+      picomatch: 4.0.4
 
   tinypool@1.0.1: {}
 
@@ -21930,7 +22341,7 @@ snapshots:
 
   tslib@2.8.1: {}
 
-  tsup@8.3.0(@microsoft/api-extractor@7.49.1(@types/node@18.19.76))(jiti@2.4.2)(postcss@8.5.1)(typescript@5.7.3):
+  tsup@8.3.0(@microsoft/api-extractor@7.49.1(@types/node@18.19.76))(jiti@2.4.2)(postcss@8.5.8)(typescript@5.7.3):
     dependencies:
       bundle-require: 5.1.0(esbuild@0.23.1)
       cac: 6.7.14
@@ -21941,7 +22352,7 @@ snapshots:
       execa: 5.1.1
       joycon: 3.1.1
       picocolors: 1.1.1
-      postcss-load-config: 6.0.1(jiti@2.4.2)(postcss@8.5.1)
+      postcss-load-config: 6.0.1(jiti@2.4.2)(postcss@8.5.8)
       resolve-from: 5.0.0
       rollup: 4.30.1
       source-map: 0.8.0-beta.0
@@ -21950,7 +22361,7 @@ snapshots:
       tree-kill: 1.2.2
     optionalDependencies:
       '@microsoft/api-extractor': 7.49.1(@types/node@18.19.76)
-      postcss: 8.5.1
+      postcss: 8.5.8
       typescript: 5.7.3
     transitivePeerDependencies:
       - jiti
@@ -22146,6 +22557,8 @@ snapshots:
       '@fastify/busboy': 2.1.1
 
   undici@6.21.0: {}
+
+  undici@6.24.1: {}
 
   unenv@2.0.0-rc.14:
     dependencies:
@@ -22362,10 +22775,10 @@ snapshots:
       - tsx
       - yaml
 
-  vite-plugin-dts@4.0.1(@types/node@18.19.76)(rollup@4.30.1)(typescript@5.7.3)(vite@5.4.14(@types/node@18.19.76)(lightningcss@1.29.2)):
+  vite-plugin-dts@4.0.1(@types/node@18.19.76)(rollup@4.60.1)(typescript@5.7.3)(vite@6.4.2(@types/node@18.19.76)(jiti@2.4.2)(lightningcss@1.29.2)):
     dependencies:
       '@microsoft/api-extractor': 7.47.4(@types/node@18.19.76)
-      '@rollup/pluginutils': 5.1.0(rollup@4.30.1)
+      '@rollup/pluginutils': 5.1.0(rollup@4.60.1)
       '@volar/typescript': 2.3.4
       '@vue/language-core': 2.0.29(typescript@5.7.3)
       compare-versions: 6.1.1
@@ -22376,19 +22789,19 @@ snapshots:
       typescript: 5.7.3
       vue-tsc: 2.0.29(typescript@5.7.3)
     optionalDependencies:
-      vite: 5.4.14(@types/node@18.19.76)(lightningcss@1.29.2)
+      vite: 6.4.2(@types/node@18.19.76)(jiti@2.4.2)(lightningcss@1.29.2)(tsx@3.12.10)
     transitivePeerDependencies:
       - '@types/node'
       - rollup
       - supports-color
 
-  vite-tsconfig-paths@4.2.0(typescript@5.7.3)(vite@5.4.14(@types/node@18.19.76)(lightningcss@1.29.2)):
+  vite-tsconfig-paths@4.2.0(typescript@5.7.3)(vite@6.4.2(@types/node@18.19.76)(jiti@2.4.2)(lightningcss@1.29.2)):
     dependencies:
       debug: 4.3.7(supports-color@9.2.2)
       globrex: 0.1.2
       tsconfck: 2.1.1(typescript@5.7.3)
     optionalDependencies:
-      vite: 5.4.14(@types/node@18.19.76)(lightningcss@1.29.2)
+      vite: 6.4.2(@types/node@18.19.76)(jiti@2.4.2)(lightningcss@1.29.2)(tsx@3.12.10)
     transitivePeerDependencies:
       - supports-color
       - typescript
@@ -22413,6 +22826,21 @@ snapshots:
       fsevents: 2.3.3
       jiti: 2.4.2
       lightningcss: 1.29.2
+
+  vite@6.4.2(@types/node@18.19.76)(jiti@2.4.2)(lightningcss@1.29.2)(tsx@3.12.10):
+    dependencies:
+      esbuild: 0.25.2
+      fdir: 6.5.0(picomatch@4.0.4)
+      picomatch: 4.0.4
+      postcss: 8.5.8
+      rollup: 4.60.1
+      tinyglobby: 0.2.15
+    optionalDependencies:
+      '@types/node': 18.19.76
+      fsevents: 2.3.3
+      jiti: 2.4.2
+      lightningcss: 1.29.2
+      tsx: 3.12.10
 
   vitest-websocket-mock@0.4.0(vitest@3.1.1):
     dependencies:
